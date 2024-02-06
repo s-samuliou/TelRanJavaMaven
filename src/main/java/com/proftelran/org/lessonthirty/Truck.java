@@ -21,13 +21,8 @@ public class Truck implements Runnable {
 
         System.out.println("Truck num:" + number + " parcels is: " + parcels[0] + "-" + parcels[1]);
         try {
-            //Thread.sleep(random.nextInt((int) ((2)*1000L)));
-
             String exchange = exchanger.exchange(parcels[1]);
             parcels[1] = exchange;
-
-            //Thread.sleep(random.nextInt((int) ((2)*1000L)));
-
             System.out.println("Truck num:" + number + " parcels is: " + parcels[0] + "-" + parcels[1]);
 
         } catch (InterruptedException e) {
