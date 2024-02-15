@@ -1,4 +1,4 @@
-package com.proftelran.org.thitryfour.reflection;
+package com.proftelran.org.thirtyfour.reflection;
 
 public class TestNewObject {
 

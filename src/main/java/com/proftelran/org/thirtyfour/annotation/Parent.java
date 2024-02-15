@@ -1,4 +1,4 @@
-package com.proftelran.org.thitryfour.annotation;
+package com.proftelran.org.thirtyfour.annotation;
 
 public class Parent {
 

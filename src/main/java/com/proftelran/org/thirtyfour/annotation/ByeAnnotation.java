@@ -1,14 +1,13 @@
-package com.proftelran.org.thitryfour.annotation;
+package com.proftelran.org.thirtyfour.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target(value = {ElementType.METHOD, ElementType.TYPE})
+@Target(value = ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface HelloAnnotation {
+public @interface ByeAnnotation {
 
-    String value();
-    String greetTo();
+    String byeTo();
 }

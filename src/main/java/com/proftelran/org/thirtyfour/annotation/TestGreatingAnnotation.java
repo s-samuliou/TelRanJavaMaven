@@ -1,4 +1,4 @@
-package com.proftelran.org.thitryfour.annotation;
+package com.proftelran.org.thirtyfour.annotation;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
